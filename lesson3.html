@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lesson 3- Collage</title>
+	<style type="text/css">
+		body {
+			background: lavender;
+		}
+.container {
+	background: lightblue;
+	min-height: 100vh;
+	display: grid;
+	grid-auto-columns: 2fr 1fr 1fr 2fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-areas: 
+	"p1 p2 p2 p3"
+	"p4 p4 p5 p5"
+	"p6 p6 p6 p6";
+	grid-gap: 10px;
+	padding: 10px;
+}
+.item {
+	background: white;
+	min-height: 100px;
+	min-width: 100px;
+}
+#trip1{
+	grid-area: p1;
+	background: url(trip1.jpg);
+	background-size: cover;
+	background-position:center;
+}
+#trip2{
+	grid-area: p2;
+	background: url(trip2.jpg);
+	background-size: cover;
+	background-position:center:;
+}
+#trip3{
+grid-area: p2;
+background: url(trip3.jpg);
+	background-size:cover; 
+	background-position:center;	
+}
+#trip4{
+	grid-area: p3;
+	background: url(trip4.jpg);
+	background-size: cover;
+	background-position: center;
+}
+#trip5{
+	grid-area: p4;
+	background: url(trip5.jpg);
+	background-size: cover;
+	background-position:center;
+}
+#trip6{
+	grid-area: p4;
+	background: url(trip6.jpg);
+	background-size: cover;
+	background-position:center;
+	}
+#trip7{
+	grid-area: p5;
+	background: url(trip7.jpg);
+	background-size: cover;
+	background-position:center;
+}
+#trip8{
+	grid-area: p5;
+	background: url(trip8.jpg);
+	background-size: cover;
+	background-position:center; 
+}
+	</style>
+
+
+</head>
+<body>
+
+</body>
+<div class="container">
+	<div class="item" id="trip1"></div>
+<div class="item" id="trip2"></div>
+	<div class="item" id="trip3"></div>
+		<div class="item" id="trip4"></div>
+			<div class="item" id="trip5"></div>
+			<div class="item" id="trip6"></div>
+			<div class="item" id="trip7"></div>
+			<div class="item" id="trip8"></div>
+		</div>
+</html>
